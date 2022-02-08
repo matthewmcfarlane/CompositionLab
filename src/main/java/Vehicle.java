@@ -1,4 +1,4 @@
-public abstract class Vehicle implements IVehicle {
+public abstract class Vehicle{
 
 
     private String make;

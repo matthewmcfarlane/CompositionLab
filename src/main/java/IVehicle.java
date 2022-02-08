@@ -1,6 +1,6 @@
-public interface IVehicle {
-
-    public String move();
-    public String stop();
-    public String start();
-}
+//public interface IVehicle {
+//
+//    public String move();
+//    public String stop();
+//    public String start();
+//}

@@ -13,6 +13,8 @@ public class CustomerTest {
     @Before
     public void before(){
         customer = new Customer(30000);
+        engine = new Engine("Petrol", 2000);
+        gearbox = new Gearbox(6);
         car = new Car("Ford", "Fiesta", "Green", engine, gearbox, 200);
     }
 
@@ -21,11 +23,11 @@ public class CustomerTest {
         assertEquals(0, customer.getNumberOfCars());
     }
 
-    @Test
-    public void canBuyCar(){
-        assertEquals(0, customer.getNumberOfCars());
-        customer.buy(car);
-        assertEquals(1, customer.getNumberOfCars());
-    }
+//    @Test
+//    public void canBuyCar(){
+//        assertEquals(0, customer.getNumberOfCars());
+//        customer.buy(car);
+//        assertEquals(1, customer.getNumberOfCars());
+//    }
 
 }

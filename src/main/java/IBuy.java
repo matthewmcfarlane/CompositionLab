@@ -1,4 +1,4 @@
 public interface IBuy {
 
-    public void buy(IVehicle car);
+    public void buy(Vehicle vehicle);
 }
