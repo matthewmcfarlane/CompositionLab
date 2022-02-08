@@ -1,4 +1,4 @@
-public abstract class Vehicle {
+public abstract class Vehicle implements IVehicle {
 
 
     private String make;
@@ -35,7 +35,17 @@ public abstract class Vehicle {
         this.colour = colour;
     }
 
+    public String move() {
+        return null;
+    }
 
+    public String stop() {
+        return null;
+    }
+
+    public String start() {
+        return null;
+    }
 }
 
 
